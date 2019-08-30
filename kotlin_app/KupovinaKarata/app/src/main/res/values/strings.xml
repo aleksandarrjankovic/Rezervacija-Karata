@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Rezervacija karata</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="okru_na_fudbalska_liga_srbije">Okružna Fudbalska Liga Srbije</string>
+    <string name="kreirajte_nalog">KREIRAJTE NALOG</string>
+    <string name="todo">TODO</string>
+    <string-array name="broj_karata">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+</resources>

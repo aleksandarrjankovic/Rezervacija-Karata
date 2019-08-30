@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:background="@android:color/white"
+            android:orientation="vertical"
+            android:padding="16dp"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="25dp"
+            tools:layout_editor_absoluteY="288dp">
+
+    </LinearLayout>
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/ip_adresa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="ip adresa"
+            android:inputType="textEmailAddress"
+            tools:layout_editor_absoluteX="35dp"
+            tools:layout_editor_absoluteY="343dp"
+            tools:ignore="MissingConstraints" />
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="51dp"
+            android:text="Unesite ip adresu racunara!!!"
+            tools:layout_editor_absoluteX="-9dp"
+            tools:layout_editor_absoluteY="321dp"
+            tools:ignore="MissingConstraints" />
+</android.support.constraint.ConstraintLayout>

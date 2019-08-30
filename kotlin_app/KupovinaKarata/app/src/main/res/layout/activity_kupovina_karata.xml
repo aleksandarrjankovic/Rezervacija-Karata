@@ -1,0 +1,142 @@
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".KupovinaKarata"
+        android:orientation="vertical"
+        android:weightSum="4">
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_margin="16dp"
+            android:padding="16dp"
+            android:background="@android:color/white"
+            android:layout_width="match_parent"
+            android:layout_height="742dp"
+            tools:ignore="MissingConstraints">
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_margin="16dp"
+                android:padding="16dp"
+                android:background="@android:color/white"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <ImageView
+                    android:src="@drawable/karte"
+                    android:layout_width="match_parent"
+                    android:layout_height="264dp"/>
+            <TextView
+                    android:layout_width="match_parent"
+                    android:id="@+id/id_p"
+                    android:text="utakmica"
+                    android:textColor="#431F63"
+                    android:textSize="15sp"
+                    android:layout_height="match_parent"/>
+            <TextView
+                    android:layout_width="match_parent"
+                    android:id="@+id/user_email"
+                    android:text="Cena ulaznica"
+                    android:textColor="#431F63"
+                    android:textSize="15sp"
+                    android:layout_height="match_parent"/>
+
+            <GridLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                <TextView
+                        android:text="Sever             300din"
+                        android:id="@+id/sever"
+                        android:textSize="18sp"
+                        android:textColor="#431F63"
+                        android:layout_width="164dp"
+                        android:layout_height="43dp"/>
+                <CheckBox
+                        android:id="@+id/severBox"
+                        android:layout_width="63dp"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:layout_row="0" android:layout_column="3"/>
+
+            </GridLayout>
+            <GridLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                <TextView
+                        android:text="Istok              200din"
+                        android:id="@+id/istok"
+                        android:textSize="18sp"
+                        android:textColor="#431F63"
+                        android:layout_width="164dp"
+                        android:layout_height="43dp"/>
+                <CheckBox
+                        android:id="@+id/istokBox"
+                        android:layout_width="63dp"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:layout_row="0" android:layout_column="3"/>
+            </GridLayout>
+            <GridLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                <TextView
+                        android:text="Zapad           150din"
+                        android:textSize="18sp"
+                        android:id="@+id/zapad"
+                        android:textColor="#431F63"
+                        android:layout_width="165dp"
+                        android:layout_height="45dp"/>
+                <CheckBox
+                        android:id="@+id/zapadBox"
+                        android:layout_width="63dp"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:layout_row="0" android:layout_column="3"/>
+            </GridLayout>
+            <GridLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                <TextView
+                        android:text="Jug                300din"
+                        android:textSize="18sp"
+                        android:id="@+id/jug"
+                        android:textColor="#431F63"
+                        android:layout_width="164dp"
+                        android:layout_height="35dp" android:layout_row="0" android:layout_column="0"/>
+                <CheckBox
+                        android:id="@+id/jugBox"
+                        android:layout_width="63dp"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:layout_row="0" android:layout_column="3"/>
+            </GridLayout>
+
+            <com.google.android.material.button.MaterialButton
+                    android:textAppearance="@style/TextAppearance.MaterialComponents.Button"
+                    android:id="@+id/kupi_dugme"
+                    android:text="Rezervacija"
+                    android:textSize="18sp"
+                    android:background="#431F63"
+                    android:textColor="@android:color/white"
+                    style="@style/Widget.MaterialComponents.Button"
+                    android:layout_weight="1"
+                    android:layout_width="283dp"
+                    android:layout_height="63dp"
+                    app:backgroundTint="#431F63"/>
+            <com.google.android.material.button.MaterialButton
+                    android:textAppearance="@style/TextAppearance.MaterialComponents.Button"
+                    android:id="@+id/rezervacijaLogin"
+                    android:text="Rezervacija ako imate nalog"
+                    android:textSize="18sp"
+                    android:background="#431F63"
+                    android:textColor="@android:color/white"
+                    style="@style/Widget.MaterialComponents.Button"
+                    android:layout_weight="1"
+                    android:layout_width="283dp"
+                    android:layout_height="63dp"
+                    app:backgroundTint="#431F63"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
